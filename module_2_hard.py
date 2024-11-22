@@ -8,5 +8,5 @@ def generator_parolia(chislo):
                 parol_chisla += str(i) + str(j)
     return parol_chisla
 for i in range(3, 21):
-    parol = generator_parolia(i)
-    print(i, parol, sep=" - ")
+    result = generator_parolia(i)
+    print(i, result, sep=" - ")
